@@ -42,21 +42,24 @@
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li ><a>Home</a></li>
-              <li><a>History</a></li>
+              <li ><a>History</a></li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl">GameHub</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li id="home-btn"><a>Home</a></li>
+            <li class="btn-primary btn mr-4" id="home-btn"><a>Home</a></li>
 
-            <li><a>History</a></li>
+            <li class="btn" id="history-btn"><a>History</a></li>
           </ul>
         </div>
         <div class="navbar-end">
           <a class="btn">$<span id="current-balance">0</span></a>
         </div>
+
+         
+        
         <div class="dropdown dropdown-end ml-4">
       <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
         <div class="w-10 rounded-full">
@@ -95,7 +98,7 @@
   <div class="hero-overlay"></div>
   <div class="hero-content text-neutral-content text-center">
     <div class="max-w-md">
-      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <h1  class="mb-5 text-5xl font-bold">Free Fire</h1>
       <p class="mb-5">
         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
         quasi. In deleniti eaque aut repudiandae et a id nisi.
@@ -107,94 +110,19 @@
 
         <!-- Shop Section -->
 
-       <div class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div class="card bg-base-100 w-96 shadow-sm">
+       <div  class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div id="free-fire-card" class="card bg-base-100 w-96 shadow-sm">
                 <figure>
                     <img
                     src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
+                    <h2 id="free-fire-heading" class="card-title">Free Fire</h2>
                     <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
                     <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div class="card-actions justify-between">
-                        <button class="btn btn-outline btn-warning"><span>$</span> 500</button>
-                        <button class="btn btn-primary">Shop Now</button>
+                        <button class="btn btn-outline btn-warning">$<span id="free-fire-price">500</span> </button>
+                        <button id="free-fire-button" class="btn btn-primary">Shop Now</button>
                     </div>
                 </div>
             </div>
@@ -244,6 +172,8 @@
                 </div>
             </div>
             
+            
+            
        </div>
 
          
@@ -274,6 +204,24 @@
                     <input id="add-money-form-btn" type="submit" class="btn btn-outline btn-accent" value="Add Money">
                 </form>
             </div>
+
+            <!-- History Section -->
+            <div id="history-section" class="hidden py-10 max-w-lg mx-auto">
+              
+            </div>
+            <!-- Modal -->
+
+            <!-- You can open the modal using ID.showModal() method -->
+           
+            <dialog id="my_modal_3" class="modal">
+              <div class="modal-box">
+                <form method="dialog">
+                  <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                </form>
+                <h3 id="modal-heading" class="text-lg font-bold"></h3>
+                
+              </div>
+            </dialog>
     <!-- Footer Section -->
     <footer
       class="footer sm:footer-horizontal bg-base-200 text-base-content p-10"
@@ -366,6 +314,7 @@
         </div>
       </nav>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="src/dashboard.js"></script>
